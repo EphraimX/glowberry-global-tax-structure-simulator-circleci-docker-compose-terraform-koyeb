@@ -3,7 +3,7 @@ jobs:
   setup_and_deploy:
     docker:
       - image: docker.mirror.hashicorp.services/hashicorp/terraform:light
-    working_directory: terraform/
+    # working_directory: terraform/
     steps:
       - checkout
       - run:
