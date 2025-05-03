@@ -9,6 +9,7 @@ jobs:
       - run:
           name: Terraform Deploy Commands
           command: |
+            cd terraform
             terraform init
             terraform fmt
             terraform validate
