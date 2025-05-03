@@ -22,3 +22,6 @@ workflows:
     jobs:
       - setup_and_deploy:
           context: PROJECTS
+
+
+# This should work, I can't fully confirm as my account has been suspended by Koyeb.
